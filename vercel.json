@@ -3,18 +3,7 @@
   "builds": [
     {
       "src": "nuxt.config.js",
-      "use": "@nuxt/vercel-builder",
-      "config": {}
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "api/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/"
+      "use": "@nuxt/now-builder"
     }
   ]
 }
