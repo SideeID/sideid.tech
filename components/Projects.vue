@@ -130,7 +130,7 @@ export default {
         {
           icon: 'sip.png',
           name: 'CF Warehouse Politeknik Negeri Jember',
-          link: 'https://channelbot.xyz',
+          link: 'https://cfwarehouse.wsmif.id/',
           year: 'Agustus 2023',
           description:
             'Platform penyimpanan dataset yang memungkinkan pengguna untuk mengunggah, melihat, dan mengunduh dataset dalam berbagai format.',

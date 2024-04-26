@@ -11,6 +11,9 @@
           <span class="ml-2 font-bold text-lg">SideID</span>
         </h1>
       </div>
+
+      
+
       <div class="ml-auto">
         <ThemeSwitcher />
       </div>
