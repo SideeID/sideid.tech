@@ -45,6 +45,14 @@ export default {
       showAllProjects: false,
       projects: [
         {
+          icon: 'dpr-icon.png',
+          name: 'Forum rapat DPR :v',
+          link: 'https://rapat-dpr.vercel.app/',
+          year: 'April 2024',
+          description: 'Forum rapat penting untuk DPR. Jangan lupa bawa kopi!, tapi boong oawokwawakoowakwakoawkowakowakowakowakowkaowakokoa',
+          color: 'bg-blue-500',
+        },
+        {
           icon: 'rapi.png',
           name: 'Rekap Kopi',
           link: 'https://github.com/SideeID/rekap-kopi',
