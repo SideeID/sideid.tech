@@ -2,7 +2,7 @@
   <a
     :href="link"
     target="_blank"
-    class="flex-1 bg-opacity-30 p-2 my-1 rounded-md transform ease-in-out duration-300"
+    class="flex-1 p-2 my-1 duration-300 ease-in-out transform rounded-md bg-opacity-30"
     :class="`bg-${color}`"
   >
     <div class="flex flex-row items-center">
@@ -15,22 +15,22 @@
               : require(`@/assets/img/${logo}`)
             : null
         "
-        class="w-6 h-6 object-contain ml-4"
+        class="object-contain w-6 h-6 ml-4"
       />
-      <div class="ml-2 flex sm:flex-row flex-col">
+      <div class="flex flex-col ml-2 sm:flex-row">
         <div class="font-bold">{{ name }}</div>
-        <div class="mx-2 hidden sm:block">-</div>
+        <div class="hidden mx-2 sm:block">-</div>
         <div class="hidden sm:block">{{ info }}</div>
       </div>
-      <div class="ml-auto mr-1 flex flex-row">
+      <div class="flex flex-row ml-auto mr-1">
         <div>[{{ date }}]</div>
-        <div class="ml-3 hidden sm:block">
+        <div class="hidden ml-3 sm:block">
           <font-awesome-icon :icon="['fas', 'external-link-alt']" />
         </div>
       </div>
     </div>
   </a>
-</template>
+</template >
 
 <script>
 export default {

@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Side ID',
+    title: 'Dimas Fajar Katon Prayogo',
     htmlAttrs: {
       lang: 'en',
     },
@@ -15,14 +15,14 @@ export default {
       {
         name: 'description',
         content:
-          "Saya seorang manusia yang suka melakukan kegiatan yang tidak biasa, dan suka dengan anime. Selain ingin menikah dengan anime saya juga ingin menjadi seorang fullstack developer.",
+          'Saya seorang manusia yang suka melakukan kegiatan yang tidak biasa, dan suka dengan anime. Selain ingin menikah dengan anime saya juga ingin menjadi seorang fullstack developer.',
       },
       {
         name: 'og:description',
         content:
-          "Saya seorang manusia yang suka melakukan kegiatan yang tidak biasa, dan suka dengan anime. Selain ingin menikah dengan anime saya juga ingin menjadi seorang fullstack developer.",
+          'Saya seorang manusia yang suka melakukan kegiatan yang tidak biasa, dan suka dengan anime. Selain ingin menikah dengan anime saya juga ingin menjadi seorang fullstack developer.',
       },
-      { name: 'og:title', content: 'Side ID [he/they]' },
+      { name: 'og:title', content: 'Dimas Fajar Katon Prayogo [he/they]' },
       { name: 'og:image', content: '/favicon.png' },
     ],
     link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }],

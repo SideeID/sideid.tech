@@ -12,7 +12,7 @@
         </h1>
       </div>
 
-      
+
 
       <div class="ml-auto">
         <ThemeSwitcher />

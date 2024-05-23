@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="max-w-3xl px-8 mt-24 mx-auto">
+    <div class="max-w-3xl px-8 mx-auto mt-24">
       <div>
         <img
           src="~/assets/img/avatar.png"
           alt="I'm a SideID!"
-          class="w-32 h-32 rounded-3xl inline avatar"
+          class="inline w-32 h-32 rounded-3xl avatar"
         />
       </div>
 
@@ -18,8 +18,8 @@
       <Contact />
       <Divider />
 
-      <div class="copyright text-center mb-8">
-        &copy; {{ new Date().getFullYear() }} SideID |
+      <div class="mb-8 text-center copyright">
+        &copy; {{ new Date().getFullYear() }} Dimas Fajar Katon Prayogo |
         <a
           href="https://github.com/SideeID"
           target="_blank"
