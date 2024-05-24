@@ -6,6 +6,7 @@
           <img
             src="~/assets/img/avatar.png"
             class="inline w-10 h-10 rounded-lg avatar"
+            alt="Avatar"
             @click="toggleFurry"
           />
           <span class="ml-2 text-lg font-bold">SideID</span>

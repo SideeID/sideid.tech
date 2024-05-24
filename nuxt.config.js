@@ -22,8 +22,22 @@ export default {
         content:
           'Saya seorang manusia yang suka melakukan kegiatan yang tidak biasa, dan suka dengan anime. Selain ingin menikah dengan anime saya juga ingin menjadi seorang fullstack developer.',
       },
+      {
+        name: 'keywords',
+        content:
+          'fullstack developer, Dimas Fajar Katon Prayogo, anime, Dicoding Indonesia, Dicoding, Backend Developer, Frontend Developer, Web Developer, Software Engineer, Software Developer, Programmer, Developer, Dimas Fajar, Dimas Katon, Dimas Prayogo, Dimas Fajar Katon, Dimas Fajar Prayogo, Dimas',
+      },
+      {
+        name: 'author',
+        content: 'Dimas Fajar Katon Prayogo, SideID',
+      },
       { name: 'og:title', content: 'Dimas Fajar Katon Prayogo [he/they]' },
       { name: 'og:image', content: '/favicon.png' },
+      { name: 'og:type', content: 'website' },
+      { name: 'og:url', content: 'https://www.sideid.tech' },
+      { name: 'og:site_name', content: 'Dimas Fajar Katon Prayogo' },
+      { name: 'og:locale', content: 'id_ID' },
+      { name: 'og:locale:alternate', content: 'en_US' },
     ],
     link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }],
   },

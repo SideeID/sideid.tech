@@ -2,7 +2,7 @@
   <a
     :href="link"
     target="_blank"
-    class="flex-1 bg-opacity-30 p-4 my-2 rounded-md hover:scale-105 transform ease-in-out duration-300"
+    class="flex-1 p-4 my-2 duration-300 ease-in-out transform rounded-md bg-opacity-30 hover:scale-105"
     :class="color"
   >
     <div class="flex flex-row items-center">
@@ -14,12 +14,13 @@
               : require(`@/assets/img/${icon}`)
             : null
         "
-        class="w-12 h-12 object-contain"
+        alt="Project Icon"
+        class="object-contain w-12 h-12"
       />
-      <div class="ml-4 flex flex-col justify-center">
-        <h2 class="text-lg font-bold flex items-center">
+      <div class="flex flex-col justify-center ml-4">
+        <h2 class="flex items-center text-lg font-bold">
           {{ name }}
-          <span v-if="year" class="text-sm font-normal ml-4 hidden sm:block"
+          <span v-if="year" class="hidden ml-4 text-sm font-normal sm:block"
             >[{{ year }}]</span
           >
         </h2>
