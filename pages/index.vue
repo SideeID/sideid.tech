@@ -19,7 +19,7 @@
       <Divider />
 
       <div class="mb-8 text-center copyright">
-        &copy; {{ new Date().getFullYear() }} Dimas Fajar Katon Prayogo |
+        &copy; {{ new Date().getFullYear() }} Side ID |
         <a
           href="https://github.com/SideeID"
           target="_blank"
