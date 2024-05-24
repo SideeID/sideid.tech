@@ -45,11 +45,21 @@ export default {
       showAllProjects: false,
       projects: [
         {
+          icon: 'API.png',
+          name: 'BookCollection Rest API',
+          link: 'https://github.com/SideeID/API-Bookshelf',
+          year: 'Mei 2024',
+          description:
+            'RESTful API untuk mengelola koleksi buku. Terdapat fitur CRUD untuk mengelola koleksi buku.',
+          color: 'bg-red-500',
+        },
+        {
           icon: 'dpr-icon.png',
           name: 'Forum rapat DPR :v',
           link: 'https://rapat-dpr.vercel.app/',
           year: 'April 2024',
-          description: 'Forum rapat penting untuk DPR. Jangan lupa bawa kopi!, tapi boong oawokwawakoowakwakoawkowakowakowakowakowkaowakokoa',
+          description:
+            'Forum rapat penting untuk DPR. Jangan lupa bawa kopi!, tapi boong oawokwawakoowakwakoawkowakowakowakowakowkaowakokoa',
           color: 'bg-blue-500',
         },
         {
@@ -93,8 +103,7 @@ export default {
           name: 'New Year Countdown',
           link: 'https://sideid-new-year-coundown.vercel.app/',
           year: 'Desember 2023',
-          description:
-            'Countdown menuju tahun baru 2024.',
+          description: 'Countdown menuju tahun baru 2024.',
           color: 'bg-yellow-500',
         },
         {
@@ -102,7 +111,8 @@ export default {
           name: 'Kominfo News',
           link: 'https://github.com/SideeID/simple-kominfo-news',
           year: 'Oktober 2023',
-          description: 'Website berita yang menampilkan berita tentang kominfo.',
+          description:
+            'Website berita yang menampilkan berita tentang kominfo.',
           color: 'bg-blue-500',
         },
         {
@@ -118,6 +128,24 @@ export default {
 
       majorProjects: [
         {
+          icon: 'API.png',
+          name: 'Crowdfunding Backend',
+          link: 'https://github.com/SideeID/Crowdfunding-Backend',
+          year: 'Mei 2024',
+          description:
+            'Backend platform crowdfunding menggunakan Node.js, Express.js, MongoDB, dan Passport.js. Mendukung registrasi pengguna, autentikasi, dan manajemen kampanye.',
+          color: 'bg-green-500',
+        },
+        {
+          icon: 'quran.png',
+          name: "My Qur'an",
+          link: 'https://al-qur-an.vercel.app/',
+          year: 'Maret 2024',
+          description:
+            'Temukan kenyamanan membaca Al Quran di era digital! Jelajahi berbagai surat dan ayat dengan mudah, serta temukan koleksi doa sehari-hari yang bisa menginspirasi hari Anda.',
+          color: 'bg-indigo-500',
+        },
+        {
           icon: 'pdp-gis.png',
           name: 'PDP GIS',
           link: 'https://pdp-jember.com/',
@@ -125,15 +153,6 @@ export default {
           description:
             'Sistem pendukung keputusan pemilihan tanaman berdasarkan kandungan tanah berbasis Sistem Informasi Geografis menggunakan metode Learning Vector Quantization.',
           color: 'bg-purple-500',
-        },
-        {
-          icon: 'quran.png',
-          name: 'My Qur\'an',
-          link: 'https://al-qur-an.vercel.app/',
-          year: 'Maret 2024',
-          description:
-            'Temukan kenyamanan membaca Al Quran di era digital! Jelajahi berbagai surat dan ayat dengan mudah, serta temukan koleksi doa sehari-hari yang bisa menginspirasi hari Anda.',
-          color: 'bg-indigo-500',
         },
         {
           icon: 'sip.png',
