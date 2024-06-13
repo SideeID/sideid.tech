@@ -40,6 +40,37 @@ export default {
       { name: 'og:locale:alternate', content: 'en_US' },
     ],
     link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+    script: [
+      {
+        type: 'application/ld+json',
+        json: {
+          '@context': 'https://schema.org',
+          '@type': 'Person',
+          name: 'Dimas Fajar Katon Prayogo',
+          url: 'https://www.sideid.tech',
+          jobTitle: 'Fullstack Developer',
+          image: 'https://www.sideid.tech/favicon.png',
+          sameAs: [
+            'https://www.facebook.com/sideid.dev/',
+            'https://www.instagram.com/side__id/',
+            'https://www.linkedin.com/in/dimas-fajar-katon-prayogo',
+            'https://www.linkedin.com/in/sideid/',
+            'https://github.com/SideeID',
+          ],
+          alumniOf: {
+            '@type': 'Organization',
+            name: 'Dicoding Indonesia',
+          },
+          worksFor: {
+            '@type': 'Organization',
+            name: 'SideID',
+          },
+          description:
+            'Saya seorang manusia yang suka melakukan kegiatan yang tidak biasa, dan suka dengan anime. Selain ingin menikah dengan anime saya juga ingin menjadi seorang fullstack developer.',
+        },
+      },
+    ],
+    __dangerouslyDisableSanitizers: ['script'],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
