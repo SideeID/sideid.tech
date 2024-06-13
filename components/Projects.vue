@@ -45,7 +45,7 @@ export default {
       showAllProjects: false,
       projects: [
         {
-          icon: 'API.png',
+          icon: 'API.webp',
           name: 'BookCollection Rest API',
           link: 'https://github.com/SideeID/API-Bookshelf',
           year: 'Mei 2024',
@@ -54,7 +54,7 @@ export default {
           color: 'bg-red-500',
         },
         {
-          icon: 'dpr-icon.png',
+          icon: 'dpr-icon.webp',
           name: 'Forum rapat DPR :v',
           link: 'https://rapat-dpr.vercel.app/',
           year: 'April 2024',
@@ -63,7 +63,7 @@ export default {
           color: 'bg-blue-500',
         },
         {
-          icon: 'rapi.png',
+          icon: 'rapi.webp',
           name: 'Rekap Kopi',
           link: 'https://github.com/SideeID/rekap-kopi',
           year: 'April 2024',
@@ -72,7 +72,7 @@ export default {
           color: 'bg-green-500',
         },
         {
-          icon: 'notes.png',
+          icon: 'notes.webp',
           name: 'Notes app',
           link: 'https://notes-app-beta-seven.vercel.app/',
           year: 'Maret 2024',
@@ -81,7 +81,7 @@ export default {
           color: 'bg-purple-500',
         },
         {
-          icon: 'bookshelf.png',
+          icon: 'bookshelf.webp',
           name: 'Books shelf',
           link: 'https://sideeid.github.io/Bookshelf-App/',
           year: 'Maret 2024',
@@ -90,7 +90,7 @@ export default {
           color: 'bg-blue-500',
         },
         {
-          icon: 'to-do-list.png',
+          icon: 'to-do-list.webp',
           name: 'Todo App',
           link: 'https://sideeid.github.io/Todo-Apps/',
           year: 'Maret 2024',
@@ -99,7 +99,7 @@ export default {
           color: 'bg-green-500',
         },
         {
-          icon: 'react.png',
+          icon: 'react.webp',
           name: 'New Year Countdown',
           link: 'https://sideid-new-year-coundown.vercel.app/',
           year: 'Desember 2023',
@@ -116,7 +116,7 @@ export default {
           color: 'bg-blue-500',
         },
         {
-          icon: 'herta.png',
+          icon: 'herta.webp',
           name: 'Kuruto',
           link: 'https://sideeid.github.io/kuruto/',
           year: 'Juli 2023',
@@ -128,7 +128,7 @@ export default {
 
       majorProjects: [
         {
-          icon: 'API.png',
+          icon: 'API.webp',
           name: 'Crowdfunding Backend',
           link: 'https://github.com/SideeID/Crowdfunding-Backend',
           year: 'Mei 2024',
@@ -137,7 +137,7 @@ export default {
           color: 'bg-green-500',
         },
         {
-          icon: 'quran.png',
+          icon: 'quran.webp',
           name: "My Qur'an",
           link: 'https://al-qur-an.vercel.app/',
           year: 'Maret 2024',
@@ -146,7 +146,7 @@ export default {
           color: 'bg-indigo-500',
         },
         {
-          icon: 'pdp-gis.png',
+          icon: 'pdp-gis.webp',
           name: 'PDP GIS',
           link: 'https://pdp-jember.com/',
           year: 'Agustus 2023',
@@ -155,7 +155,7 @@ export default {
           color: 'bg-purple-500',
         },
         {
-          icon: 'sip.png',
+          icon: 'sip.webp',
           name: 'CF Warehouse Politeknik Negeri Jember',
           link: 'https://cfwarehouse.wsmif.id/',
           year: 'Agustus 2023',
