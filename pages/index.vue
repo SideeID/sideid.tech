@@ -3,7 +3,7 @@
     <div class="max-w-3xl px-8 mx-auto mt-24">
       <div>
         <img
-          src="~/assets/img/avatar.png"
+          src="~/assets/img/avatar.webp"
           alt="I'm a SideID!"
           class="inline w-32 h-32 rounded-3xl avatar"
         />
