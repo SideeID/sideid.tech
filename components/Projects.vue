@@ -128,12 +128,21 @@ export default {
 
       majorProjects: [
         {
+          icon: 'bersamaPalestina.svg',
+          name: 'Crowdfunding Frontend',
+          link: 'https://bersama-palestina.vercel.app/',
+          year: 'Juni 2024',
+          description:
+            'Frontend platform crowdfunding untuk palestina menggunakan React.js, Tailwind CSS, dan Redux. Mendukung registrasi pengguna, autentikasi, manajemen kampanye dan terintegrasi dengan payment gayeway Midtrans.',
+          color: 'bg-red-500',
+        },
+        {
           icon: 'API.webp',
           name: 'Crowdfunding Backend',
           link: 'https://github.com/SideeID/Crowdfunding-Backend',
           year: 'Mei 2024',
           description:
-            'Backend platform crowdfunding menggunakan Node.js, Express.js, MongoDB, dan Passport.js. Mendukung registrasi pengguna, autentikasi, dan manajemen kampanye.',
+            'Backend platform crowdfunding menggunakan Node.js, Express.js, Express Validator, MongoDB, Passport.js dll. Mendukung registrasi pengguna, autentikasi, manajemen kampanye dan terintegrasi dengan payment gayeway Midtrans.',
           color: 'bg-green-500',
         },
         {
