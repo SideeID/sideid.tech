@@ -1,5 +1,6 @@
 <template>
   <div>
+    <ReminderModal />
     <div class="max-w-3xl px-8 mx-auto mt-24">
       <div>
         <img
@@ -32,8 +33,23 @@
 </template>
 
 <script>
-export default {}
+import ReminderModal from '~/components/ReminderModal.vue';
+import About from '~/components/About.vue';
+import Divider from '~/components/Divider.vue';
+import Projects from '~/components/Projects.vue';
+import Contact from '~/components/Contact.vue';
+
+export default {
+  components: {
+    ReminderModal,
+    About,
+    Divider,
+    Projects,
+    Contact,
+  },
+};
 </script>
 
-<style></style>
-Donations
+<style>
+/* Gaya tambahan jika diperlukan */
+</style>
