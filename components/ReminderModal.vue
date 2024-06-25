@@ -118,4 +118,10 @@ export default {
   width: 50%;
   background-color: rgba(26, 32, 44, 0.8);
 }
+
+@media (max-width: 640px) {
+  .modal-content {
+    width: 90%;
+  }
+}
 </style>
