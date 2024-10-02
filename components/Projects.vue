@@ -145,15 +145,15 @@ export default {
             'JEMPOL - Jaringan Edukasi dan Informasi Layanan Mandiri POLIJE adalah chatbot yang dibuat untuk membantu menjawab pertanyaan seputar akademik, kemahasiswaan, dan layanan lainnya di Politeknik Negeri Jember.',
           color: 'bg-blue-500',
         },
-        {
-          icon: 'kemenag.svg',
-          name: 'Kinerja Tahunan Kementerian Agama',
-          link: '#',
-          year: 'Agustus 2024',
-          description:
-            'Aplikasi untuk mengelola laporan kinerja tahunan Kementerian Agama Kota Malang.',
-          color: 'bg-green-500',
-        },
+        // {
+        //   icon: 'kemenag.svg',
+        //   name: 'Kinerja Tahunan Kementerian Agama',
+        //   link: '#',
+        //   year: 'Agustus 2024',
+        //   description:
+        //     'Aplikasi untuk mengelola laporan kinerja tahunan Kementerian Agama Kota Malang.',
+        //   color: 'bg-green-500',
+        // },
         {
           icon: 'bersamaPalestina.svg',
           name: 'Crowdfunding Frontend',
