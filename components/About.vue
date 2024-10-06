@@ -31,7 +31,7 @@
     </p>
 
     <img
-      src="https://skillicons.dev/icons?i=react,ts,nodejs,express,laravel,flask,postgres,mongodb,figma"
+      src="https://skillicons.dev/icons?i=react,ts,nodejs,express,laravel,flask,nextjs,postgres,mongodb"
       class="mt-4"
       alt="Skills"
     />
