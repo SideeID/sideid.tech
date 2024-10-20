@@ -138,8 +138,8 @@ export default {
       majorProjects: [
         {
           icon: 'sip.webp',
-          name: 'JEMPOL',
-          link: '#',
+          name: 'Chatbot - JEMPOL',
+          link: 'https://jempol.sideid.tech/',
           year: 'Agustus 2024',
           description:
             'JEMPOL - Jaringan Edukasi dan Informasi Layanan Mandiri POLIJE adalah chatbot yang dibuat untuk membantu menjawab pertanyaan seputar akademik, kemahasiswaan, dan layanan lainnya di Politeknik Negeri Jember.',
