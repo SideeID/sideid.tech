@@ -23,6 +23,12 @@
             class="transition hover:opacity-80"
             ><font-awesome-icon :icon="['fab', 'github']"
           /></a>
+          <a
+            href="https://gitlab.com/dimas_fajar"
+            target="_blank"
+            class="transition hover:opacity-80"
+            ><font-awesome-icon :icon="['fab', 'gitlab']"
+          /></a>
         </div>
       </div>
     </h1>
