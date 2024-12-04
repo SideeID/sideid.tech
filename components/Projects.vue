@@ -45,6 +45,24 @@ export default {
       showAllProjects: false,
       projects: [
         {
+          icon: 'darunnajah.png',
+          name: 'Content Management System PPAI Darun Najah 2 Malang',
+          link: 'https://darunnajah.project.inagata.com/',
+          year: 'November 2024',
+          description:
+            'Sistem manajemen konten untuk SMP Darunnajah 2 Karangploso Malang.',
+          color: 'bg-green-500',
+        },
+        {
+          icon: 'dimsa.png',
+          name: 'Content Management System Pondok Pesantren Darul Ihsan Muhammadiyah Sragen',
+          link: 'https://dimsa.project.inagata.com/',
+          year: 'Desember 2024',
+          description:
+            'Sistem manajemen konten untuk Pondok Pesantren Darul Ihsan Muhammadiyah Sragen.',
+          color: 'bg-blue-500',
+        },
+        {
           icon: 'quran.webp',
           name: "My Qur'an",
           link: 'https://al-qur-an.vercel.app/',
@@ -137,6 +155,15 @@ export default {
 
       majorProjects: [
         {
+          icon: 'AI.png',
+          name: 'Ask Dimas Chatbot',
+          link: 'https://ask.sideid.tech/',
+          year: 'Desember 2024',
+          description:
+            'Interactive AI-powered, AI untuk menjawab pertanyaan seputar diri saya, portofolio, dan lainnya.',
+          color: 'bg-red-500',
+        },
+        {
           icon: 'sip.webp',
           name: 'Chatbot - JEMPOL',
           link: 'https://jempol.sideid.tech/',
@@ -145,15 +172,15 @@ export default {
             'JEMPOL - Jaringan Edukasi dan Informasi Layanan Mandiri POLIJE adalah chatbot yang dibuat untuk membantu menjawab pertanyaan seputar akademik, kemahasiswaan, dan layanan lainnya di Politeknik Negeri Jember.',
           color: 'bg-blue-500',
         },
-        // {
-        //   icon: 'kemenag.svg',
-        //   name: 'Kinerja Tahunan Kementerian Agama',
-        //   link: '#',
-        //   year: 'Agustus 2024',
-        //   description:
-        //     'Aplikasi untuk mengelola laporan kinerja tahunan Kementerian Agama Kota Malang.',
-        //   color: 'bg-green-500',
-        // },
+        {
+          icon: 'kemenag.svg',
+          name: 'Kinerja Tahunan Kementerian Agama',
+          link: '#',
+          year: 'Agustus 2024',
+          description:
+            'Aplikasi ini dibuat untuk membantu Kementerian Agama dalam memonitoring kinerja tahunan, serta memudahkan dalam pengelolaan data dan laporan.',
+          color: 'bg-green-500',
+        },
         {
           icon: 'bersamaPalestina.svg',
           name: 'Crowdfunding Frontend',
