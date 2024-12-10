@@ -33,7 +33,9 @@
       </div>
     </h1>
     <p class="mt-4">
-      Saya seorang manusia yang suka melakukan kegiatan yang tidak biasa, dan suka dengan anime. Selain ingin menikah dengan anime saya juga ingin menjadi seorang fullstack developer.
+      Saya seorang manusia yang suka melakukan kegiatan yang tidak biasa, dan
+      suka dengan anime. Selain ingin menikah dengan anime saya juga ingin
+      menjadi seorang fullstack developer.
     </p>
 
     <img

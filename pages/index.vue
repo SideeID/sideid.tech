@@ -29,6 +29,7 @@
         >
       </div>
     </div>
+    <AIFloatingButton />
   </div>
 </template>
 
@@ -38,6 +39,7 @@ import About from '~/components/About.vue';
 import Divider from '~/components/Divider.vue';
 import Projects from '~/components/Projects.vue';
 import Contact from '~/components/Contact.vue';
+import AIFloatingButton from '~/components/AIFloatingButton.vue';
 
 export default {
   components: {
@@ -46,6 +48,7 @@ export default {
     Divider,
     Projects,
     Contact,
+    AIFloatingButton,
   },
 };
 </script>
