@@ -5,7 +5,7 @@
     <a
       href="https://ask.sideid.tech/"
       target="_blank"
-      class="flex items-center justify-center w-16 h-16 text-white transition-transform transform bg-blue-500 rounded-full shadow-2xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+      class="flex items-center justify-center w-16 h-16 text-white transition-transform transform bg-blue-200 rounded-full shadow-2xl hover:bg-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:ring-opacity-50"
     >
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
         <g id="Icons">
