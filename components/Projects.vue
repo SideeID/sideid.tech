@@ -63,6 +63,14 @@ export default {
           color: 'bg-blue-500',
         },
         {
+          icon: 'CLI.png',
+          name: 'AI-CLI - Artificial Intelligence Command Line Interface',
+          link: 'https://github.com/SideeID/AI-CLI',
+          year: 'Desember 2024',
+          description: 'AI-CLI adalah Command Line Interface (CLI) yang memungkinkan Anda berinteraksi dengan model Language Learning Model (LLM) secara langsung dari terminal. Dengan berbagai mode kerja dan fitur yang fleksibel, AI-CLI dirancang untuk mempermudah tugas seperti terjemahan, ringkasan, pembuatan kode, dan lainnya.',
+          color: 'bg-red-500',
+        },
+        {
           icon: 'quran.webp',
           name: "My Qur'an",
           link: 'https://al-qur-an.vercel.app/',
