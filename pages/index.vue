@@ -14,11 +14,14 @@
       <Divider />
       <Projects />
       <Divider />
-      <!-- <Donations />
-      <Divider /> -->
+      <div class="text-center mb-8">
+        <NuxtLink to="/certificates" class="text-blue-500 hover:text-blue-600 transition-colors duration-300">
+          Lihat Sertifikat & Penghargaan
+        </NuxtLink>
+      </div>
+      <Divider />
       <Contact />
       <Divider />
-
       <div class="mb-8 text-center copyright">
         &copy; {{ new Date().getFullYear() }} Side ID |
         <a
