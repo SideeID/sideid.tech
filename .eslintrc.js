@@ -11,8 +11,5 @@ module.exports = {
   extends: ['@nuxtjs', 'plugin:nuxt/recommended', 'prettier'],
   plugins: [],
   // add your custom rules here
-  rules: {
-    'no-undef': 'error',
-    'no-unused-vars': 'error',
-  },
+  rules: {},
 }
