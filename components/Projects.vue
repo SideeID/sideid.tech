@@ -56,7 +56,7 @@ export default {
       showAllProjects: false,
       projects: [
         {
-          icon: 'ezyapi.jpg',
+          icon: 'ezyapi.webp',
           name: 'Ezy API - Documentation',
           link: 'https://ezy.sideid.tech/',
           year: 'Januari 2025',
@@ -74,7 +74,7 @@ export default {
           color: 'bg-green-500',
         },
         {
-          icon: 'neoside.png',
+          icon: 'neoside.webp',
           name: 'NeoSide - WhatsApp Chatbot',
           link: 'https://wa.me/6281949601347',
           year: 'Desember 2024',
@@ -83,7 +83,7 @@ export default {
           color: 'bg-blue-500',
         },
         {
-          icon: 'AI.png',
+          icon: 'AI.webp',
           name: 'Ask Dimas Chatbot',
           link: 'https://ask.sideid.tech/',
           year: 'Desember 2024',
@@ -92,7 +92,7 @@ export default {
           color: 'bg-red-500',
         },
         {
-          icon: 'darunnajah.png',
+          icon: 'darunnajah.webp',
           name: 'Content Management System PPAI Darun Najah 2 Malang',
           link: 'https://darunnajah.project.inagata.com/',
           year: 'November 2024',
@@ -101,7 +101,7 @@ export default {
           color: 'bg-green-500',
         },
         {
-          icon: 'dimsa.png',
+          icon: 'dimsa.webp',
           name: 'Content Management System Pondok Pesantren Darul Ihsan Muhammadiyah Sragen',
           link: 'https://dimsa.project.inagata.com/',
           year: 'Desember 2024',
@@ -110,7 +110,7 @@ export default {
           color: 'bg-blue-500',
         },
         {
-          icon: 'CLI.png',
+          icon: 'CLI.webp',
           name: 'AI-CLI - Artificial Intelligence Command Line Interface',
           link: 'https://github.com/SideeID/AI-CLI',
           year: 'Desember 2024',
