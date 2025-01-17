@@ -1,9 +1,17 @@
 <template>
   <div>
+    <!-- <div class="mb-4">
+      <input
+        v-model="searchQuery"
+        type="text"
+        placeholder="Search projects..."
+        class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700"
+      />
+    </div> -->
     <h1 class="mt-4 text-2xl font-bold">Major Projects</h1>
-    <div class="flex flex-col mt-2">
+    <transition-group name="project-list" tag="div" class="flex flex-col mt-2">
       <Project
-        v-for="project in majorProjects"
+        v-for="project in filteredMajorProjects"
         :key="project.name"
         :icon="project.icon"
         :name="project.name"
@@ -12,14 +20,17 @@
         :description="project.description"
         :color="project.color"
       />
-    </div>
-    <button class="mt-6" @click="showAllProjects = !showAllProjects">
+    </transition-group>
+    <button
+      class="mt-6 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors duration-300"
+      @click="showAllProjects = !showAllProjects"
+    >
       <font-awesome-icon
         :icon="['fas', 'chevron-down']"
-        class="transition duration-300 transform"
+        class="transition duration-300 transform mr-2"
         :class="showAllProjects ? '-rotate-180' : ''"
       />
-      Show All Projects
+      {{ showAllProjects ? 'Hide' : 'Show' }} All Projects
     </button>
     <transition name="slide">
       <div v-if="showAllProjects" class="flex flex-col mt-2">
@@ -45,6 +56,42 @@ export default {
       showAllProjects: false,
       projects: [
         {
+          icon: 'ezyapi.jpg',
+          name: 'Ezy API - Documentation',
+          link: 'https://ezy.sideid.tech/',
+          year: 'Januari 2025',
+          description:
+            'Dokumentasi lengkap untuk EzyAPI, dirancang untuk memandu pengembang dalam memanfaatkan fitur-fitur platform API dengan mudah. Dokumentasi ini mencakup panduan integrasi, contoh penggunaan, dan referensi endpoint, sehingga pengembang dapat dengan cepat memulai atau mengembangkan proyek berbasis API dengan pendekatan santai namun profesional.',
+          color: 'bg-blue-500',
+        },
+        {
+          icon: 'API.webp',
+          name: 'Ezy-Engine - Rest API',
+          link: 'api.sideid.tech',
+          year: 'Januari 2025',
+          description:
+            'EzyAPI adalah platform API gratis yang mudah digunakan dengan pendekatan yang santai namun tetap fungsional. Dibangun dengan teknologi modern, EzyAPI bertujuan untuk menyederhanakan interaksi dengan model AI canggih seperti Claude, GPT, dan Gemini, serta menyediakan berbagai fitur yang berguna untuk pengembangan aplikasi.',
+          color: 'bg-green-500',
+        },
+        {
+          icon: 'neoside.png',
+          name: 'NeoSide - WhatsApp Chatbot',
+          link: 'https://wa.me/6281949601347',
+          year: 'Desember 2024',
+          description:
+            'NeoSide adalah chatbot WhatsApp yang dibangun menggunakan Node.js dan TypeScript. Bot ini memanfaatkan teknologi Baileys untuk komunikasi dengan WhatsApp dan berbagai LLM (Large Language Model) yang tersedia untuk menjawab pertanyaan pengguna, dan berbagai fitur lainnya.',
+          color: 'bg-blue-500',
+        },
+        {
+          icon: 'AI.png',
+          name: 'Ask Dimas Chatbot',
+          link: 'https://ask.sideid.tech/',
+          year: 'Desember 2024',
+          description:
+            'Interactive AI-powered, AI untuk menjawab pertanyaan seputar diri saya, portofolio, dan lainnya.',
+          color: 'bg-red-500',
+        },
+        {
           icon: 'darunnajah.png',
           name: 'Content Management System PPAI Darun Najah 2 Malang',
           link: 'https://darunnajah.project.inagata.com/',
@@ -67,8 +114,18 @@ export default {
           name: 'AI-CLI - Artificial Intelligence Command Line Interface',
           link: 'https://github.com/SideeID/AI-CLI',
           year: 'Desember 2024',
-          description: 'AI-CLI adalah Command Line Interface (CLI) yang memungkinkan Anda berinteraksi dengan model Language Learning Model (LLM) secara langsung dari terminal. Dengan berbagai mode kerja dan fitur yang fleksibel, AI-CLI dirancang untuk mempermudah tugas seperti terjemahan, ringkasan, pembuatan kode, dan lainnya.',
+          description:
+            'AI-CLI adalah Command Line Interface (CLI) yang memungkinkan Anda berinteraksi dengan model Language Learning Model (LLM) secara langsung dari terminal. Dengan berbagai mode kerja dan fitur yang fleksibel, AI-CLI dirancang untuk mempermudah tugas seperti terjemahan, ringkasan, pembuatan kode, dan lainnya.',
           color: 'bg-red-500',
+        },
+        {
+          icon: 'API.webp',
+          name: 'Crowdfunding API',
+          link: 'https://github.com/SideeID/Crowdfunding-Backend',
+          year: 'Mei 2024',
+          description:
+            'Backend platform crowdfunding menggunakan Node.js, Express.js, Express Validator, MongoDB, Passport.js dll. Mendukung registrasi pengguna, autentikasi, manajemen kampanye dan terintegrasi dengan payment gayeway Midtrans.',
+          color: 'bg-green-500',
         },
         {
           icon: 'quran.webp',
@@ -94,7 +151,7 @@ export default {
           link: 'https://rapat-dpr.vercel.app/',
           year: 'April 2024',
           description:
-            'Forum rapat penting untuk DPR. Jangan lupa bawa kopi!, tapi boong oawokwawakoowakwakoawkowakowakowakowakowkaowakokoa',
+            'Forum rapat penting untuk DPR. Jangan lupa bawa kopi!, tapi boong 😂.',
           color: 'bg-blue-500',
         },
         {
@@ -163,15 +220,6 @@ export default {
 
       majorProjects: [
         {
-          icon: 'AI.png',
-          name: 'Ask Dimas Chatbot',
-          link: 'https://ask.sideid.tech/',
-          year: 'Desember 2024',
-          description:
-            'Interactive AI-powered, AI untuk menjawab pertanyaan seputar diri saya, portofolio, dan lainnya.',
-          color: 'bg-red-500',
-        },
-        {
           icon: 'sip.webp',
           name: 'Chatbot - JEMPOL',
           link: 'https://jempol.sideid.tech/',
@@ -191,21 +239,12 @@ export default {
         },
         {
           icon: 'bersamaPalestina.svg',
-          name: 'Crowdfunding Frontend',
+          name: 'Bersama Palestina',
           link: 'https://bersama-palestina.vercel.app/',
           year: 'Juni 2024',
           description:
-            'Frontend platform crowdfunding untuk palestina menggunakan React.js, Tailwind CSS, dan Redux. Mendukung registrasi pengguna, autentikasi, manajemen kampanye dan terintegrasi dengan payment gayeway Midtrans.',
+            'Platform crowdfunding untuk palestina menggunakan React.js, Tailwind CSS, dan Redux. Mendukung registrasi pengguna, autentikasi, manajemen kampanye dan terintegrasi dengan payment gayeway Midtrans.',
           color: 'bg-red-500',
-        },
-        {
-          icon: 'API.webp',
-          name: 'Crowdfunding Backend',
-          link: 'https://github.com/SideeID/Crowdfunding-Backend',
-          year: 'Mei 2024',
-          description:
-            'Backend platform crowdfunding menggunakan Node.js, Express.js, Express Validator, MongoDB, Passport.js dll. Mendukung registrasi pengguna, autentikasi, manajemen kampanye dan terintegrasi dengan payment gayeway Midtrans.',
-          color: 'bg-green-500',
         },
         {
           icon: 'pdp-gis.webp',
@@ -226,7 +265,40 @@ export default {
           color: 'bg-blue-400',
         },
       ],
+      searchQuery: '',
     }
+  },
+  computed: {
+    filteredMajorProjects() {
+      return this.majorProjects.filter(
+        (project) =>
+          project.name.toLowerCase().includes(this.searchQuery.toLowerCase()) ||
+          project.description
+            .toLowerCase()
+            .includes(this.searchQuery.toLowerCase())
+      )
+    },
+    filteredProjects() {
+      return this.projects.filter(
+        (project) =>
+          project.name.toLowerCase().includes(this.searchQuery.toLowerCase()) ||
+          project.description
+            .toLowerCase()
+            .includes(this.searchQuery.toLowerCase())
+      )
+    },
   },
 }
 </script>
+
+<style scoped>
+.project-list-enter-active,
+.project-list-leave-active {
+  transition: all 0.5s ease;
+}
+.project-list-enter-from,
+.project-list-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
+}
+</style>
