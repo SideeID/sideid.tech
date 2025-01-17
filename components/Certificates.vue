@@ -50,7 +50,7 @@ export default {
           name: "Backend Developer",
           issuer: "Inagata Technosmith",
           date: "Desember 2024",
-          image: require("~/assets/img/BE-inagata.png"),
+          image: require("~/assets/img/BE-Inagata.png"),
           link: "https://drive.google.com/file/d/1Ntqoozr0TMxxvllJ6a-xK4pMwIrxZquv/view?usp=sharing"
         },
         {
