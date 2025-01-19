@@ -60,5 +60,10 @@ export default {
       default: 'bg-white',
     },
   },
+  computed: {
+    isDarkMode() {
+      return this.$colorMode.preference === 'dark';
+    },
+  },
 }
 </script>
