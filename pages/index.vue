@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ReminderModal />
+    <!-- <ReminderModal /> -->
     <div class="max-w-3xl px-8 mx-auto mt-24">
       <div>
         <img
@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import ReminderModal from '~/components/ReminderModal.vue';
+// import ReminderModal from '~/components/ReminderModal.vue';
 import About from '~/components/About.vue';
 import Divider from '~/components/Divider.vue';
 import Projects from '~/components/Projects.vue';
@@ -46,7 +46,7 @@ import AIFloatingButton from '~/components/AIFloatingButton.vue';
 
 export default {
   components: {
-    ReminderModal,
+    // ReminderModal,
     About,
     Divider,
     Projects,
@@ -55,7 +55,3 @@ export default {
   },
 };
 </script>
-
-<style>
-/* Gaya tambahan jika diperlukan */
-</style>
