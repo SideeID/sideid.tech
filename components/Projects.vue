@@ -56,18 +56,36 @@ export default {
       showAllProjects: false,
       projects: [
         {
+          icon: 'next-js-svgrepo-com.svg',
+          name: 'Logbook Cargo - Bandara Adi Soemarmo',
+          link: '#',
+          year: 'Februari 2025',
+          description:
+            'Logbook Cargo adalah aplikasi berbasis web yang dirancang untuk membantu pengelolaan data logistik di Bandara Adi Soemarmo. Dengan fitur-fitur yang lengkap dan mudah digunakan, aplikasi ini memungkinkan pengguna untuk mencatat, melacak, dan mengelola data logistik dengan efisien. Dengan PWAs, aplikasi ini juga dapat diakses secara offline dan diinstal di perangkat pengguna.',
+          color: 'bg-green-500',
+        },
+        {
+          icon: 'laravel-svgrepo-com.svg',
+          name: 'Bali Trip Center',
+          link: 'https://balitripcenter.com/',
+          year: 'Januari 2025',
+          description:
+            'Bali Trip Center adalah platform penyedia layanan perjalanan wisata yang menyediakan berbagai paket perjalanan wisata di Bali. Dibangun menggunakan teknologi modern, platform ini memungkinkan pengguna untuk menemukan dan memesan paket perjalanan wisata dengan mudah dan cepat.',
+          color: 'bg-blue-500',
+        },
+        {
           icon: 'ezyapi.webp',
           name: 'Ezy API - Documentation',
-          link: 'https://ezy.sideid.tech/',
+          link: 'https://ezy.side.my.id/',
           year: 'Januari 2025',
           description:
             'Dokumentasi lengkap untuk EzyAPI, dirancang untuk memandu pengembang dalam memanfaatkan fitur-fitur platform API dengan mudah. Dokumentasi ini mencakup panduan integrasi, contoh penggunaan, dan referensi endpoint, sehingga pengembang dapat dengan cepat memulai atau mengembangkan proyek berbasis API dengan pendekatan santai namun profesional.',
-          color: 'bg-blue-500',
+          color: 'bg-red-500',
         },
         {
           icon: 'API.webp',
           name: 'Ezy-Engine - Rest API',
-          link: 'api.sideid.tech',
+          link: 'https://api.side.my.id',
           year: 'Januari 2025',
           description:
             'EzyAPI adalah platform API gratis yang mudah digunakan dengan pendekatan yang santai namun tetap fungsional. Dibangun dengan teknologi modern, EzyAPI bertujuan untuk menyederhanakan interaksi dengan model AI canggih seperti Claude, GPT, dan Gemini, serta menyediakan berbagai fitur yang berguna untuk pengembangan aplikasi.',
@@ -85,7 +103,7 @@ export default {
         {
           icon: 'AI.webp',
           name: 'Ask Dimas Chatbot',
-          link: 'https://ask.sideid.tech/',
+          link: 'https://ask.side.my.id/',
           year: 'Desember 2024',
           description:
             'Interactive AI-powered, AI untuk menjawab pertanyaan seputar diri saya, portofolio, dan lainnya.',
@@ -222,7 +240,7 @@ export default {
         {
           icon: 'sip.webp',
           name: 'Chatbot - JEMPOL',
-          link: 'https://jempol.sideid.tech/',
+          link: 'https://jempol.side.my.id/',
           year: 'Agustus 2024',
           description:
             'JEMPOL - Jaringan Edukasi dan Informasi Layanan Mandiri POLIJE adalah chatbot yang dibuat untuk membantu menjawab pertanyaan seputar akademik, kemahasiswaan, dan layanan lainnya di Politeknik Negeri Jember.',
