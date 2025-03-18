@@ -3,7 +3,7 @@
     class="fixed z-50 transition-all duration-300 ease-in-out bottom-6 right-6 hover:scale-110"
   >
     <a
-      href="https://ask.sideid.tech/"
+      href="https://ask.side.my.id/"
       target="_blank"
       class="flex items-center justify-center w-14 h-14 text-white transition-transform transform bg-blue-200 rounded-full shadow-2xl hover:bg-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:ring-opacity-50"
     >
