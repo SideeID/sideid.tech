@@ -12,13 +12,13 @@
 
       <About />
       <Divider />
-      <Projects />
-      <Divider />
       <div class="text-center mb-8">
         <NuxtLink to="/certificates" class="text-blue-500 hover:text-blue-600 transition-colors duration-300">
           Lihat Sertifikat & Penghargaan
         </NuxtLink>
       </div>
+      <Divider />
+      <Projects />
       <Divider />
       <Contact />
       <Divider />
